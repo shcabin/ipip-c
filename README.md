@@ -11,6 +11,7 @@ gcc ip_core.c test.c -O2 -g -D benchmark
 ```C
 ipip_t * hip=ip_init(type,path); //初始化 type=0 为dat格式 type=1为datx格式
 ip_find(hip,"8.8.8.8",buffer,sizeof(buffer));//查找单个ip
+ip_find_u(hip,3395848193,buffer,sizeof(buffer));//主机顺序整形ip 查找
 ip_uninit(hip);//反初始化
 ```
 性能:
