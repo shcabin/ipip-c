@@ -1,5 +1,5 @@
 # ipip-c
-IP数据库解析代码 (https://www.ipip.net/)
+IP数据库解析代码 支持dat和datx格式 (https://www.ipip.net/)
 
 ```shell
 gcc ip_core.c test.c -O2 -g -D benchmark
